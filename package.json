@@ -1,0 +1,41 @@
+{
+  "name": "pear-hermit-pebble",
+  "author": "Comfortably Numb",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {
+    "pebble-clay": "^1.0.4"
+  },
+  "pebble": {
+    "displayName": "Pear Hermit",
+    "uuid": "f90993ed-8430-4684-9c96-8a30b1bc3584",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": ["emery"],
+    "watchapp": { "watchface": true },
+    "capabilities": ["health", "configurable"],
+    "messageKeys": [
+      "BACKGROUND_COLOR",
+      "DIAL_COLOR",
+      "HANDS_COLOR",
+      "TRANSPARENT_HANDS",
+      "SECOND_HAND",
+      "ACTIVITY",
+      "TRACKER_FONT_SIZE"
+    ],
+    "resources": {
+      "media": [
+        { "type": "font", "name": "FONT_ZENDOTS_26", "file": "fonts/ZenDots-Regular.ttf", "characterRegex": "[0-9]" },
+        { "type": "font", "name": "FONT_ZENDOTS_18", "file": "fonts/ZenDots-Regular.ttf", "characterRegex": "[0-9]" },
+        { "type": "png", "name": "ICON_STEPS",          "file": "icons/steps.png" },
+        { "type": "png", "name": "ICON_ACTIVE_MINUTES",  "file": "icons/activeMinutes.png" },
+        { "type": "png", "name": "ICON_CALORIES",        "file": "icons/calories.png" },
+        { "type": "png", "name": "ICON_DISTANCE",        "file": "icons/distance.png" },
+        { "type": "png", "name": "ICON_HEART_RATE",      "file": "icons/heartRate.png" },
+        { "type": "png", "name": "ICON_BATTERY",         "file": "icons/battery.png" },
+        { "type": "png", "name": "ICON_DIGITAL_TIME",    "file": "icons/digitalTime.png" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "type": "heading",
+    "defaultValue": "Pear Hermit Settings"
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Colors"
+      },
+      {
+        "type": "color",
+        "messageKey": "BACKGROUND_COLOR",
+        "label": "Background Color",
+        "defaultValue": "000000",
+        "sunlight": false
+      },
+      {
+        "type": "color",
+        "messageKey": "DIAL_COLOR",
+        "label": "Dial / Second Hand Color",
+        "defaultValue": "FFFFFF",
+        "sunlight": false
+      },
+      {
+        "type": "color",
+        "messageKey": "HANDS_COLOR",
+        "label": "Hour/Minute Hands Color",
+        "defaultValue": "FF0000",
+        "sunlight": false
+      }
+    ]
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Display Options"
+      },
+      {
+        "type": "toggle",
+        "messageKey": "TRANSPARENT_HANDS",
+        "label": "Transparent Hour/Minute Hands",
+        "defaultValue": false
+      },
+      {
+        "type": "toggle",
+        "messageKey": "SECOND_HAND",
+        "label": "Show Second Hand",
+        "defaultValue": true
+      },
+      {
+        "type": "select",
+        "messageKey": "ACTIVITY",
+        "label": "Default Tracker Display",
+        "defaultValue": "0",
+        "options": [
+          { "label": "Step Count",       "value": "0" },
+          { "label": "Time Active",      "value": "1" },
+          { "label": "Calories Burned",  "value": "2" },
+          { "label": "Distance Walked",  "value": "3" },
+          { "label": "Heart Rate",       "value": "4" },
+          { "label": "Battery Charge",   "value": "5" },
+          { "label": "Digital Time",     "value": "6" }
+        ]
+      },
+      {
+        "type": "select",
+        "messageKey": "TRACKER_FONT_SIZE",
+        "label": "Tracker Text Size",
+        "defaultValue": "0",
+        "options": [
+          { "label": "Normal", "value": "0" },
+          { "label": "Large",  "value": "1" }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "submit",
+    "defaultValue": "Save"
+  }
+]
